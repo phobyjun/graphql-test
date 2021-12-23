@@ -1,3 +1,7 @@
 import { GraphQLServer } from "graphql-yoga";
 
-console.log("Hello");
+const server = new GraphQLServer({
+
+});
+
+server.start(() => console.log("Graphql Server Running"));
